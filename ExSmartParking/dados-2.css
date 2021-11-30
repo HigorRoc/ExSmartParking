@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --red: #cd444f;
+  --purple: #82418f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./Imagens/diagonal-noise.png);
+}
+
+#logo img {
+  width: 275px;
+}
+
+#header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+/*padding: 0 45px;*/
+#nav-box {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  width: 40vw;
+  padding-top: 8px;
+  border-radius: 0px 00px 0px 25px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+.nav-item a {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.nav-item-1 a {
+  margin-left: 0px;
+}
+
+.nav-item a,
+i {
+  color: white;
+}
+
+.tipo {
+  margin-top: 20px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.botone {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.botone:hover {
+  cursor: pointer;
+}
+
+.botone i,
+a {
+	color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.botone a {
+	font-size: 20px;
+	color: white;
+}
+
+.botone-1 {
+	margin-left: 20px;
+  background: white;
+  border: 2px solid var(--red);
+}
+
+.botone-1 i {
+	color: var(--red);
+}
+
+.botone-1 a {
+	color: var(--red);
+}
+
+.line {
+	height: 10px;
+	width: 700px;
+	margin-top: 30px;
+	border-radius: 25px;
+	background: -webkit-linear-gradient(right, var(--red), var(--purple));
+}
+
+#container-blocks {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+.botoneiros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.corrente {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  border-radius: 25px;
+  padding: 5px ;
+}
+
+.credito {
+  background:white;
+  border: 1px solid var(--red);
+  border-radius: 25px;
+  padding: 5px 1px;
+  text-align: center;
+  color: var(--red);
+}
+
+.form-bloco {
+  width: 300px;
+  height: 425px;
+  background: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.bloco {
+  margin: 30px 30px;
+}
+
+form .cols-bloco {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  height: 100%;
+}
+
+form .prim-bloco {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background: #e0e0e0;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(192, 192, 192);
+}
+
+.cols-venc {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.cols-venc select {
+  background: #e0e0e0;
+  border: none;
+  padding-right: 10px;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+select[name="vencim-mes"] {
+  margin-right: 10px;
+}
+
+.laster {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.confir {
+  margin-left: 30px;
+  padding: 10px 100px;
+}
+
+.logo-sem h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  color: white;
+  font-weight: lighter;
+  border-radius: 25px;
+  margin: 0 0 10px 0;
+
+}
+
+@media screen and (max-width: 1367px) {
+  .form-bloco {
+    max-width: 200px;
+  }
+}
+
+.confirmation a {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  border-radius: 30px;
+  width: 170px;
+  margin-left: 500px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+}

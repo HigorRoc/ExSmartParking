@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --red: #cd444f;
+  --purple: #82418f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./Imagens/diagonal-noise.png);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top: 2em;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 435px;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 10px 10px #7d558b;
+}
+
+.center h1 {
+  text-align: center;
+  padding-top: 0 0 10px 0;
+  font-size: 35px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 0 0 10px 0;
+  font-weight: 800;
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center form {
+  padding: 0 40px ;
+  box-sizing: border-box;
+}
+
+form .campo_txt {
+  position: relative;
+  border-bottom: 1px solid var(--purple);
+  margin: 30px 0;
+}
+
+.campo_txt input {
+  width: 100%;
+  padding: 0 ;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+form > a[href="welcome.html"] {
+  margin: auto;
+  color: white;
+  font-size: 19px;
+  display: block;
+  height: 35px;
+  padding-top: 4px;
+  width: 200px;
+  border:none;
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  border-radius: 25px;
+}
+
+.campo_txt label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: var(--purple);
+  transform: translateY(-50%);
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #6666;
+  
+}
+
+input[type]::placeholder {
+  padding-left: 25px;
+}
+
+.pass {
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #606060;
+  margin-top: 15px;
+}
+
+.pass:hover {
+  color: turquoise;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+a {
+  margin: 20px auto;
+  border: 1px solid black;
+  padding-top: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 30px;
+  width: 100%;
+  background: white;
+}
+
+a:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-height: 725px) {
+  img {
+    position: absolute;
+    left: 0;
+    top: -50px;
+
+  }
+}

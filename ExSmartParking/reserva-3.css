@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --red: #cd444f;
+  --purple: #82418f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./Imagens/diagonal-noise.png);
+}
+
+#logo img {
+  width: 275px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+/*padding: 0 45px;*/
+#nav-box {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  width: 40vw;
+  padding-top: 8px;
+  border-radius: 0px 00px 0px 25px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+.nav-item a {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.nav-item-1 a {
+  margin-left: 0px;
+}
+
+.nav-item a,
+i {
+  color: white;
+}
+
+#main {
+  margin: 10vh 10vw;
+	position: relative;
+}
+
+#big-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cols-1 h1 {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  display: inline;
+  font-weight: normal;
+  color: white;
+  border-radius: 0 50px 50px 0;
+  padding: 20px 10px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  width: 250px;
+  border: 1px solid #636363;
+  border-radius: 10px;
+}
+
+.cols-1 p {
+  color: #636363;
+  font-size: 18px;
+  margin: 15px 0 5px 0;
+}
+
+.below {
+  margin: 35px 15px;
+}
+
+.line {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  height: 10px;
+  margin: 20px 0;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.search-box {
+  background-color: rgb(202, 202, 202);
+  border-radius: 15px;
+	display: flex;
+  width: 750px;
+  height: 400px;
+}
+
+.ender {
+  padding: px;
+  width: 55%;
+	height: 70px;
+  background: rgb(161, 161, 161);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ender i,
+.text p {
+  color: black;
+}
+
+.ender-1 {
+	border-right: 1px solid;
+}
+
+
+.line-3 {
+  width: 6px;
+  border-radius: 25px;
+  height: 30px;
+  background: black;
+}
+
+.text p {
+  margin: 0;
+}
+
+.text a {
+  text-decoration: none;
+	color: black;
+  border-radius: 25px;
+}
+
+
+.search-bar a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  padding: 10px 20px;
+  color: white;
+  border-radius: 25px;
+}
+
+.line-2 {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  width: 10px;
+  height: 650px;
+  border-radius: 25px;
+}
+
+.reservas {
+  width: 600px;
+  min-width: 600px;
+  background-color: rgb(202, 202, 202);
+  border-radius: 15px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mensagem {
+  display: inline;
+  margin: auto;
+  color: grey;
+  font-weight: normal;
+  font-size: 1.5em;
+  height: fit-content;
+}
+
+.reservar-box {
+	position: relative;
+	background-color: white;
+	height: 400px;
+	bottom: 600px;
+	left: 50px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 15px;
+	border: 3px solid var(--purple);
+}
+
+.reservar-box p {
+    font-size: 19px;
+}
+
+.reservar-box h1 {
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    background: -webkit-linear-gradient(right, var(--red), var(--purple));
+    padding: 10px 20px;
+}
+
+.reservar-box i {
+    color: green;
+}
+
+.reservar-box a {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--purple);
+    font-size: 1.8em;
+}
+
+.reservar-box a:hover{
+    cursor: pointer;
+}
+
+
+h5 {
+    color: rgb(88, 88, 88);
+    text-decoration: underline;
+}

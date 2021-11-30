@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Imagens/LogoSoftware_EX1.png" />
+    <link rel="stylesheet" href="dados-2.css" />
+    <script
+      src="https://kit.fontawesome.com/43e62f9a77.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ex's Parking</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <img src="./Imagens/LogoSoftware_EX2.png" alt="" />
+      </div>
+      <div id="nav-box">
+        <ul class="nav-bar">
+          <li class="nav-item nav-item-1">
+            <a href="welcome.html">Home</a>
+          </li>
+          <li class="nav-item nav-item-2">
+            <i class="fas fa-calendar-week fa-2x"></i>
+            <a href="./reserva-4.html">Reservas</a>
+          </li>
+          <li class="nav-item nav-item-3">
+            <i class="fas fa-user fa-2x"></i>
+            <a href="dados-1.html">Meus dados</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="tipo">
+        <div class="botone botone-1">
+          <i class="fas fa-user fa-2x"></i>
+          <a href="./dados-1.html">Pessoais</a>
+        </div>
+        <div class="botone botone-2">
+          <i class="fas fa-credit-card fa-2x"></i>
+          <a href="./dados-2.html">Financeiro</a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div id="container-blocks">
+        <div class="bloco">
+          <div class="form-bloco">
+            <div class="botoneiros">
+              <a class="corrente" href="">Conta Corrente</a>
+              <a class="credito" href="">Cartão de Crédito</a>
+            </div>
+            <form method="post">
+              <div class="cols-bloco prim-bloco">
+                <label for="fbanco">Banco</label>
+                <input
+                  type="text"
+                  id="fbanco"
+                  name="banco"
+                  placeholder="Ex. xxx - Banco"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="fagencia">Agência</label>
+                <input
+                  type="text"
+                  id="fagencia"
+                  name="agencia"
+                  placeholder="Ex. xxxx"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="fconta">Conta</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="email"
+                  placeholder="Ex. tchufratchufrim@smartp.com"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="fdigit">Digito</label>
+                <input type="text" id="fdigit" name="tel" placeholder="Ex. x" />
+              </div>
+              <div class="cols-bloco">
+                <label for="vencim-mes">Vencimento</label>
+                <div class="cols-venc">
+                  <select name="vencim-mes" id="vencim-mes">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <select name="vencim-ano" id="vencim-ano">
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bloco">
+          <div class="form-bloco">
+            <div class="logo-sem">
+              <h1>Sem Parar</h1>
+            </div>
+            <form method="post">
+              <div class="cols-bloco prim-bloco">
+                <label for="fbanco">Nº da Tag</label>
+                <input
+                  type="text"
+                  id="fntag"
+                  name="ntag"
+                  placeholder="Ex. xxxx xxxx xxxx xxxx"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="fagencia">Nome</label>
+                <input
+                  type="text"
+                  id="fnome"
+                  name="nome"
+                  placeholder="Ex. Beltradno Sicrano da Silva"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="vencim-mes">Data de expiração:</label>
+                <div class="cols-venc">
+                  <select name="vencim-mes" id="vencim-mes">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                    <option value="06">06</option>
+                    <option value="07">07</option>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <select name="vencim-ano" id="vencim-ano">
+                    <option value="2001">2021</option>
+                    <option value="2002">2022</option>
+                    <option value="2003">2023</option>
+                    <option value="2004">2024</option>
+                    <option value="2005">2025</option>
+                    <option value="2006">2026</option>
+                    <option value="2007">2027</option>
+                    <option value="2008">2028</option>
+                    <option value="2009">2029</option>
+                    <option value="2010">2030</option>
+                    <option value="2011">2031</option>
+                    <option value="2012">2032</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="confirmation">
+      <a href="#">Confirma alterações</a>
+      </div>
+    </div>
+  </body>
+</html>

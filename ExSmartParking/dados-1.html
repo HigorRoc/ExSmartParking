@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./Imagens/LogoSoftware_EX1.png" />
+    <link rel="stylesheet" href="dados-1.css" />
+    <script
+      src="https://kit.fontawesome.com/43e62f9a77.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ex's Parking</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <img src="./Imagens/LogoSoftware_EX2.png" alt="" />
+      </div>
+      <div id="nav-box">
+        <ul class="nav-bar">
+          <li class="nav-item nav-item-1">
+            <a href="welcome.html">Home</a>
+          </li>
+          <li class="nav-item nav-item-2">
+            <i class="fas fa-calendar-week fa-2x"></i>
+            <a href="./reserva-4.html">Reservas</a>
+          </li>
+          <li class="nav-item nav-item-3">
+            <i class="fas fa-user fa-2x"></i>
+            <a href="#">Meus dados</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+      <div class="tipo">
+        <div class="botone botone-1">
+          <i class="fas fa-user fa-2x"></i>
+          <a href="./dados-1.html">Pessoais</a>
+        </div>
+        <div class="botone botone-2">
+          <i class="fas fa-credit-card fa-2x"></i>
+          <a href="./dados-2.html">Financeiro</a>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div id="container-blocks">
+        <div class="bloco">
+          <div class="form-bloco">
+            <form method="post">
+              <div class="cols-bloco">
+                <label for="femail">E-mail</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="email"
+                  placeholder="Ex. tchufratchufrim@smartp.com"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="ftel">Telefone</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="tel"
+                  placeholder="Ex. (xx) 99999-9999 "
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bloco">
+          <div class="form-bloco">
+            <form method="post">
+              <div class="cols-bloco prim-bloco">
+                <label for="fname">Fabricante</label>
+                <input
+                  type="text"
+                  id="ffabri"
+                  name="fabri"
+                  placeholder="Ex. Hyundai"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="fcpf">Modelo</label>
+                <input
+                  type="text"
+                  id="fmodel"
+                  name="model"
+                  placeholder="Ex. Creta"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="femail">Placa</label>
+                <input
+                  type="text"
+                  id="fplaca"
+                  name="placa"
+                  placeholder="Ex. xxxx-xxxx"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="bloco">
+          <div class="form-bloco">
+            <form method="post">
+              <div class="cols-bloco prim-bloco">
+                <label for="fcep">CEP</label>
+                <input
+                  type="text"
+                  id="fcep"
+                  name="cep"
+                  placeholder="Ex. xxxxx-xxx"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="flogra">Logradouro</label>
+                <input
+                  type="text"
+                  id="flogra"
+                  name="logra"
+                  placeholder="Ex. Rua de lá"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="fnume">Número</label>
+                <input
+                  type="text"
+                  id="fnume"
+                  name="numero"
+                  placeholder="Ex. xxx"
+                />
+              </div>
+              <div class="cols-bloco">
+                <label for="ftel">Complemento</label>
+                <input
+                  type="text"
+                  id="fcomple"
+                  name="comple"
+                  placeholder="Ex. Ao lado de ..."
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="confirmation">
+      <a href="#">Confirma alterações</a>
+      </div>
+    </div>
+  </body>
+</html>

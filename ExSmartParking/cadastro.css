@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --red: #cd444f;
+  --purple: #82418f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./Imagens/diagonal-noise.png);
+}
+
+#header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 45px;
+}
+
+#logo img {
+  width: 275px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#botone a {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  color: white;
+  padding: 10px 100px;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+}
+
+.passos {
+  width: 100%;
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  border-radius: 0 25px 25px 0;
+}
+
+.lista-pa {
+  padding: 10px 0;
+}
+
+.lista-pa ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+i {
+  color: white;
+}
+
+.lista-pa li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li > span {
+  color: white;
+  padding-left: 7px;
+  font-size: 22px;
+}
+
+label > span {
+  color: blue;
+  text-decoration: underline;
+}
+
+label > span:hover {
+  cursor: pointer;
+}
+
+#container-blocks {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.botoneiros {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.credito {
+  background: white;
+  color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
+a {
+  background: -webkit-linear-gradient(right, var(--red), var(--purple));
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 7px 7px;
+}
+
+.form-bloco {
+  width: 300px;
+  height: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.bloco {
+  margin: 30px 0;
+}
+
+form .cols-bloco {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+form .prim-bloco {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background: #e0e0e0;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(192, 192, 192);
+}
+
+.cols-venc {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.cols-venc select {
+  background: #e0e0e0;
+  border: none;
+  padding-right: 10px;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+select[name="vencim-mes"] {
+  margin-right: 10px;
+}
+
+.laster {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.confir {
+  margin-left: 30px;
+  padding: 10px 100px;
+}
+
+@media screen and (max-width: 1367px) {
+  .form-bloco {
+    max-width: 200px;
+  }
+}
