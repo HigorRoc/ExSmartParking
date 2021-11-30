@@ -6,7 +6,7 @@
   <a href="#-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="speech_balloon-contatos">Contatos</a>
+  <a href="#-contatos">Contatos</a>
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@ Você pode visualizar o layout básico do projeto através [desse link](https://
 | :---: | :---: | :---: | :---: |
 
 <!-- CONTATOS -->
-## :speech_balloon: Contatos
+## ✉️ Contatos
 [![Instagram](https://img.shields.io/badge/-Instagram_-E4405F?&logo=Instagram&logoColor=FFFFFF)](https://instagram.com/hiigorrocha_)&nbsp;
 [![Linkedin](https://img.shields.io/badge/-Linkedln-0A66C2?&logo=Linkedin&logoColor=FFFFFF)](https://www.linkedin.com/in/higor-silva18/)&nbsp;
 
