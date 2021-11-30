@@ -11,11 +11,10 @@
 
 <p align="center">
     <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=A9A9A9&labelColor=000000" alt="Version 1.0"/>
-    <img alt="License" src="https://img.shields.io/static/v1?label=License&message=apache%202.0&color=A9A9A9&labelColor=000000">
 </p>
 
 <p align="center">
-  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático de Sistemas Aplicado a Negócio" da UNINOVE, onde o mesmo tem por seu objetivo ser um local onde os clientes desta rede de Estacionamentos possam realizar suas reservas e garantir a segurança do seu veículo. 
+  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático de Sistemas Aplicado a Negócio" da UNINOVE onde o Professor Orientador é o Adriano M. Schroeder. O mesmo tem por seu objetivo ser um local onde os clientes desta rede de Estacionamentos possam realizar suas reservas e garantir a segurança do seu veículo. 
 </p>
 
 <br/>
@@ -35,14 +34,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <!-- REQUISITOS DO SISTEMA -->
 ## 🛠 Funcionalidades
-- `Cadastrar Usuários` | Realizar o Cadastro do usuário com Nome, Email, Senha e Foto do perfil;
-- `Ativar/Desativar Usuários` | Realizar a ativação ou desativação do usuário no acesso ao sistema;
-- `Cadastrar Produtos` | Realizar o Cadastro de Produtos com Nome, Fabricante, Quantidade, Valor de Compra e Venda;
-- `Alterar Produtos` | Realizar a Alteração de dados do produto cadastrado;
-- `Ativar/Desativar Produtos` | Realizar a ativação ou desativação de um produto, caso o mesmo tenha se tornado obsoleto;
-- `Cadastrar Fabricantes` | Realizar o Cadastro de Fabricantes dos produtos com Nome/Razão Social, CPF/CNPJ e email;
-- `Cadastrar Representantes` | Realizar o Cadastro de Representantes dos fabricantes com Nome e Email;
-- `Registrar Venda` | Realizar o registro de uma venda e automaticamente atualizado a quantidade no estoque;
+- `Cadastrar cliente` | Realizar o Cadastro do cliente com Nome, CPF, Endereço, Email e Senha;
+- `Cadastrar Veiculos` | Realizar o cadastro do Veículo com Fabricante, Modelo e Placa;
+- `Cadastrar Pagamento` | Realizar o Cadastro das formas de pagamento com Cartão de Crédito ou Débito em conta;
+- `Cadastro de Parceiros` | Realizar o Cadastro da utilização do Sem Parar (parceiro da EX);
+- `Realizar Reserva` | Realizar o registro de uma reserva de vaga no Ex Smart Parking escolhendo um dos polos e dentro escolher Andar, Setor e o Número da Vaga;
+
 
 <!-- LAYOUT DO SISTEMA -->
 ## 💻 Layout
