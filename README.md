@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático em Construção de Sistemas" da UNINOVE, onde o mesmo tem por seu objetivo organizar e controlar o estoque     de um respectivo estabelecimento. 
+  Projeto desenvolvido e atrelado com a disciplina de "Projeto Prático de Sistemas Aplicado a Negócio" da UNINOVE, onde o mesmo tem por seu objetivo ser um local onde os clientes desta rede de Estacionamentos possam realizar suas reservas e garantir a segurança do seu veículo. 
 </p>
 
 <br/>
@@ -50,7 +50,7 @@ Você pode visualizar o layout básico do projeto através [desse link](https://
 
 <!-- CONTRIBUIDORES  -->
 ## :busts_in_silhouette: Contribuidores
-[<img src=".ExSmart/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/MatheusProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/GuiProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> |
+[<img src=".ExSmart/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/MatheusProfile.jpg" width=115 > <br> <sub> Matheus Meneses</sub>](https://github.com/matheus457) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/GuiProfile.jpg" width=115 > <br> <sub> Guilherme Rodrigues</sub>](https://github.com/guilherme2601) <br><sub>Aluno/Desenvolvedor</sub> |
 | :---: | :---: | :---: | :---: |
 
 <!-- CONTATOS -->
