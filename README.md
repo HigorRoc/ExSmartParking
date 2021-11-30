@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="ApexTech" title="ApexTech" src=".ExSmart/LogoEx.png" width=350/>
+    <img alt="ExSmartParking" title="ExSmartParking" src=".ExSmart/LogoEx.png" width=350/>
 </h1>
 
 <p align="center">
