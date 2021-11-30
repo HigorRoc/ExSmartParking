@@ -50,7 +50,7 @@ Você pode visualizar o layout básico do projeto através [desse link](https://
 
 <!-- CONTRIBUIDORES  -->
 ## :busts_in_silhouette: Contribuidores
-[<img src=".apextech/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".apextech/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> |
+[<img src=".ExSmart/HigorProfile.jpg" width=115 > <br> <sub> Higor Rocha </sub>](https://github.com/HigorRoc) <br><sub>Aluno/Desenvolvedor</sub> | [<img src=".ExSmart/VictorProfile.jpg" width=115 > <br> <sub> Victor Pedreira</sub>](https://github.com/VictorNuPe) <br><sub>Aluno/Desenvolvedor</sub> |
 | :---: | :---: |  
 
 <!-- CONTATOS -->
