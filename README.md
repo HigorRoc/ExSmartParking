@@ -43,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <!-- LAYOUT DO SISTEMA -->
 ## 💻 Layout
-Você pode visualizar o layout básico do projeto através [desse link](https://www.figma.com/file/S8GoSPO0ub0mVRY5fVNv7g/Ex's-Smart-Parking?node-id=18%3A159). Lembrando que não é necessáario ter uma conta no Figma para acessá-lo.
+Você pode visualizar o layout básico do projeto através [desse link](https://www.figma.com/file/S8GoSPO0ub0mVRY5fVNv7g/Ex's-Smart-Parking?node-id=18%3A159). Lembrando que não é necessário ter uma conta no Figma para acessá-lo.
 
 <!-- CONTRIBUIDORES  -->
 ## :busts_in_silhouette: Contribuidores
